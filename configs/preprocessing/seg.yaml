@@ -1,0 +1,19 @@
+data_dir: ${oc.env:MOTION_SEG_RAW_ROOT,./data/seg_dataset}
+processed_dir: ${oc.env:MOTION_SEG_PROCESSED_DIR,./data/processed_seg_dataset_4500ms}
+fps: 30
+train_window_secs: 5
+test_window_secs: 5
+window_overlap: 0.8
+fullbody: true
+map_to_exponential: true
+position_smoothing: 0.0
+rotation_smoothing: 0.0
+constant_remover_eps: 1.0e-6
+need_mirror_data: false
+is_standardize: true
+clip_local_path: ${oc.env:MOTION_CLIP_MODEL,openai/clip-vit-base-patch32}
+testset:
+  - ARMS_REACH-1
+  - FIST_KNOCK-1
+  - SHOULDERS_SHRUG-1
+force_reextract_motion: false

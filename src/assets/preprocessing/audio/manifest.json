@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "audio_motion_preprocessing",
+  "framerate": 30,
+  "audio_feature_dim": 181,
+  "motion_feature_dim": 31,
+  "model_repository": "UsanoCoCr/ProAct",
+  "model_revision": "b246d61db9f41502b6ed00b142e85461b2a2938c",
+  "checkpoints": ["audio_backbone_model_600.pt", "controlnet_model_800.pt"],
+  "files": [
+    {
+      "path": "input_scaler.sav",
+      "bytes": 4943,
+      "sha256": "d14543752439bfea7fdee205f82a695ed29000c1fb847d5528f8302e8a7b9d14"
+    },
+    {
+      "path": "output_scaler.sav",
+      "bytes": 1343,
+      "sha256": "eb023637181a504f97024ffa35fb7d9ac6e2d98b9924f0e76b08bc559a3eb90f"
+    },
+    {
+      "path": "data_pipe_30fps.sav",
+      "bytes": 18823,
+      "sha256": "3ec0ea067e5c96cb84ba775f815f1d39d6edc60a9f72919f8d92ce1540befd0d"
+    }
+  ]
+}

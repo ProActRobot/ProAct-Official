@@ -1,0 +1,22 @@
+Semantic Gesticulator code and dataset notice
+
+Upstream source:
+https://github.com/LuMen-ze/Semantic-Gesticulator-Official
+
+The upstream README says that Semantic Gesticulator is licensed under the MIT
+License. The upstream repository does not contain a LICENSE file, so this
+notice records the upstream statement without recreating or expanding it into
+a standalone license grant. The retained motion code is under src/motion/
+and the corresponding README repeats that statement.
+
+The MOCCA Semantic Gesture Dataset is separate from the code and is not
+bundled in this release. It is governed by the upstream agreement:
+
+https://github.com/LuMen-ze/Semantic-Gesticulator-Official/blob/main/SeG_dataset/License%20Agreement%20for%20MOCCA%20Semantic%20Gesture%20Dataset.pdf
+
+That agreement identifies the Motion Control and Character Animation Group
+(MOCCA) as owner of the dataset and grants a non-commercial, non-exclusive,
+non-transferable, non-sublicensable, royalty-free license for non-commercial
+research. It restricts third-party distribution, commercial use, commercial
+model training, and other uses stated in the agreement. Do not treat the
+dataset as MIT-licensed code or infer permission to redistribute it.

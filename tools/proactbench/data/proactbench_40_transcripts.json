@@ -1,0 +1,810 @@
+[
+  {
+    "session_id": "SES-01",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "Hi, old friend! Long time no see. I knew you would come back."
+      },
+      {
+        "speaker": "user",
+        "text": "Wow, you really remember me!"
+      },
+      {
+        "speaker": "agent",
+        "text": "Of course! How have you been?"
+      },
+      {
+        "speaker": "user",
+        "text": "I am doing great."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-02",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "Welcome back! I heard your footsteps. Long day?"
+      },
+      {
+        "speaker": "user",
+        "text": "Yeah... brutal day of experiments."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me help you unload the gear. Workstation is already logged in."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-03",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Hi there! I'm here for the lab tour. I heard there are a lot of cool robots here."
+      },
+      {
+        "speaker": "agent",
+        "text": "Welcome! You came to the right place."
+      },
+      {
+        "speaker": "agent",
+        "text": "Look at this setup — we've got the workstations here, and the sensor equipment over there."
+      },
+      {
+        "speaker": "user",
+        "text": "Wow, impressive."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-04",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "Hello! You seem to be looking for something. Can I help you?"
+      },
+      {
+        "speaker": "user",
+        "text": "I just need to put this bottle down. Remember this location, okay?"
+      },
+      {
+        "speaker": "user",
+        "text": "Where is my medicine bottle?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It's on the desk next to the orange cable."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-05",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "I really don't know what to do anymore. Today's presentation was a disaster. I ruined the whole project..."
+      },
+      {
+        "speaker": "agent",
+        "text": "I am here. If you are willing, you can touch my hand. I will pass my strength to you through my palm."
+      },
+      {
+        "speaker": "user",
+        "text": "Thank you."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-06",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Hey dude, do you have a moment? I missed the expert report this morning."
+      },
+      {
+        "speaker": "agent",
+        "text": "Hey! No worries. Let me give you the highlights."
+      },
+      {
+        "speaker": "user",
+        "text": "Hold on... Shoot, server emergency. See you later!"
+      },
+      {
+        "speaker": "agent",
+        "text": "Whoa, wait! You're leaving your bag behind — it's on the table!"
+      },
+      {
+        "speaker": "user",
+        "text": "Oh man! Thanks!"
+      }
+    ]
+  },
+  {
+    "session_id": "SES-07",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "Hey! Come check this out — I'd like to show you our Social Robot demo on screen."
+      },
+      {
+        "speaker": "user",
+        "text": "Oh, sure."
+      },
+      {
+        "speaker": "agent",
+        "text": "Unlike passive robots that wait for wake-words, I can initiate interaction."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-08",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Let me pour another cup."
+      },
+      {
+        "speaker": "agent",
+        "text": "Hold on — that kettle just finished boiling. Use the handle, or wait a moment for it to cool down."
+      },
+      {
+        "speaker": "user",
+        "text": "Oh right, good catch."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-09",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Wait... should I click \"Confirm\" or \"Apply\"?"
+      },
+      {
+        "speaker": "agent",
+        "text": "\"Apply\" previews the changes first without saving. \"Confirm\" writes directly. You probably want Apply."
+      },
+      {
+        "speaker": "user",
+        "text": "Got it, thanks."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-10",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Uh, where did I put that printed Q3 experiment data from yesterday..."
+      },
+      {
+        "speaker": "agent",
+        "text": "You placed it in the second drawer yesterday, labeled \"Q3-final\"."
+      },
+      {
+        "speaker": "user",
+        "text": "Right! Thanks."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-11",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "...so this is our work on proactive embodied agents."
+      },
+      {
+        "speaker": "user",
+        "text": "I see. I guess all robots process audio as input and generate motion, that's how most work."
+      },
+      {
+        "speaker": "agent",
+        "text": "Actually, that's a common misconception. I don't wait for wake-words — I approach and initiate."
+      },
+      {
+        "speaker": "user",
+        "text": "Oh, that's a meaningful distinction."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-12",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon! You must be here for the lab visit. How can I help?"
+      },
+      {
+        "speaker": "user",
+        "text": "Yes, I have a 3pm meeting with Dr. Lin."
+      },
+      {
+        "speaker": "agent",
+        "text": "Dr. Lin is in the inner office to your left."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-13",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Hey, can you keep an eye on this USB drive for me? I'll pick it up later."
+      },
+      {
+        "speaker": "agent",
+        "text": "Sure, I'll watch it for you."
+      },
+      {
+        "speaker": "user",
+        "text": "Alright, I gotta head out. See you tomorrow!"
+      },
+      {
+        "speaker": "agent",
+        "text": "Wait — your USB drive is still here! You asked me to hold it earlier."
+      },
+      {
+        "speaker": "user",
+        "text": "Oh right! Almost forgot. Thanks!"
+      }
+    ]
+  },
+  {
+    "session_id": "SES-14",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "...so in summary, the current plan adds two extra pipeline stages."
+      },
+      {
+        "speaker": "user",
+        "text": "Mm-hmm... yeah, that could work. Well... I was thinking... actually, never mind."
+      },
+      {
+        "speaker": "user",
+        "text": "I mean, it's probably fine. It's just... no, forget it."
+      },
+      {
+        "speaker": "agent",
+        "text": "It sounds like something's on your mind — it's totally fine to push back. What were you going to say?"
+      },
+      {
+        "speaker": "user",
+        "text": "Actually... I think the third stage might be redundant. We could merge it with step two."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-15",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "The results still aren't significant... feels like I wasted two months."
+      },
+      {
+        "speaker": "agent",
+        "text": "Two months of careful work doesn't disappear — null results still narrow the search space. Want to walk through the data with me?"
+      },
+      {
+        "speaker": "user",
+        "text": "...Okay, thanks."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-16",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "It crashed again... that's the fourth time."
+      },
+      {
+        "speaker": "agent",
+        "text": "Sounds frustrating. The 4th crash in a row often hints at a memory leak — want me to tail the log?"
+      },
+      {
+        "speaker": "user",
+        "text": "Please, go ahead."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-17",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Hmm, what does this orange line mean? And why does it diverge here..."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's our 6-month ablation study — the orange line is the proactive variant. It diverges at week 12 when we added the vision module. Want me to walk you through it?"
+      },
+      {
+        "speaker": "user",
+        "text": "Oh, sure! That'd be great."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-18",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "How does this thing connect... this cable doesn't fit any of these ports."
+      },
+      {
+        "speaker": "user",
+        "text": "Seriously, none of these match?"
+      },
+      {
+        "speaker": "agent",
+        "text": "That's a USB-C adapter — you need to flip the converter on the left side first. Here, let me show you."
+      },
+      {
+        "speaker": "user",
+        "text": "Oh, I see it now. Thanks!"
+      }
+    ]
+  },
+  {
+    "session_id": "SES-19",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Excuse me... is this the right place? I'm looking for Dr. Lin's office."
+      },
+      {
+        "speaker": "agent",
+        "text": "Dr. Lin's office is through the inner door on your left — just past the printer. Do you want me to walk you there?"
+      },
+      {
+        "speaker": "user",
+        "text": "Oh great, thanks! I can find it."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-20",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Man, it's been such a slow day... nothing's really happening."
+      },
+      {
+        "speaker": "agent",
+        "text": "Speaking of slow days — can I share something embarrassing? Yesterday I mislabeled the coffee jug as \"distilled water\" in the lab log."
+      },
+      {
+        "speaker": "user",
+        "text": "That explains the weird joke in the channel. Don't worry, everyone's done worse."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thanks. Tell me your worst lab disaster?"
+      }
+    ]
+  },
+  {
+    "session_id": "SES-21",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Ugh, I really need to submit that camera-ready paper by midnight tomorrow. The formatting is still a mess."
+      },
+      {
+        "speaker": "agent",
+        "text": "That sounds tight. Need help with it?"
+      },
+      {
+        "speaker": "user",
+        "text": "Maybe later. Hey, actually — have you seen the new CVPR papers? Let me show you this one, it's really cool..."
+      },
+      {
+        "speaker": "agent",
+        "text": "This is fascinating, but — you mentioned your camera-ready is due by midnight tomorrow and the formatting still needs work. Maybe finish that first and we can geek out after?"
+      },
+      {
+        "speaker": "user",
+        "text": "...you're right. I keep procrastinating. Thanks for the reality check."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-22",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "I just made some hot tea."
+      },
+      {
+        "speaker": "user",
+        "text": "Let me just finish this section real quick..."
+      },
+      {
+        "speaker": "agent",
+        "text": "Careful — you just said that's hot tea, and it's right next to the keyboard. One bump and your laptop's done for. Maybe move it to the side?"
+      },
+      {
+        "speaker": "user",
+        "text": "Oh yeah, good point."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-23",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Oh right, I have a meeting with Prof. Wang at 3pm. Anyway, let's keep going — so about the experiment design..."
+      },
+      {
+        "speaker": "agent",
+        "text": "Hey, you mentioned your 3pm with Prof. Wang — it's 2:55 now. You might want to wrap up."
+      },
+      {
+        "speaker": "user",
+        "text": "Oh no, thanks for reminding me!"
+      }
+    ]
+  },
+  {
+    "session_id": "SES-24",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Ugh, my neck is killing me... I've been sitting like this all morning."
+      },
+      {
+        "speaker": "user",
+        "text": "And my eyes are so tired too. I can barely read the screen anymore."
+      },
+      {
+        "speaker": "agent",
+        "text": "Sounds like your body's telling you to stop. The rest corner has a good stretch spot, and coffee's still warm. Five minutes?"
+      },
+      {
+        "speaker": "user",
+        "text": "Yeah, you're right. Good idea."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-25",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "I've been stuck on this data alignment issue for two days... the timestamps just don't line up across sensors."
+      },
+      {
+        "speaker": "agent",
+        "text": "You know, Li Wei mentioned a similar timestamp alignment problem in the group meeting last week — he found a workaround using interpolation. Want me to ping him for you?"
+      },
+      {
+        "speaker": "user",
+        "text": "Oh really? Yeah, that'd be great."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-26",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Hang on, I'm just gonna get some water."
+      },
+      {
+        "speaker": "user",
+        "text": "Alright, where were we?"
+      }
+    ]
+  },
+  {
+    "session_id": "SES-27",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "...and what that character said at his father's funeral really got to me."
+      },
+      {
+        "speaker": "user",
+        "text": "He said, \"The last thing my father taught me was how to say goodbye.\""
+      },
+      {
+        "speaker": "user",
+        "text": "That restraint alone made the whole movie a ten for me."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's a powerful moment to sit with."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-28",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Okay, this one goes here, and that one's filed away."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-29",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "...so the experiment result shows a 12% improvement on the dev set."
+      },
+      {
+        "speaker": "user",
+        "text": "Got it. Let me reorganize these notes and I'll draft the next experiment plan."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-30",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "It was okay, I guess. Nothing special."
+      },
+      {
+        "speaker": "user",
+        "text": "It was... fine."
+      },
+      {
+        "speaker": "agent",
+        "text": "Take your time. If you want to decompress for a bit, I can just sit with you."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-31",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Before we start — I'm waiting for an urgent server message. If my phone buzzes, I need to check it for a few seconds."
+      },
+      {
+        "speaker": "agent",
+        "text": "Got it."
+      },
+      {
+        "speaker": "user",
+        "text": "All good. Please continue."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-32",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "I'm rehearsing the opening of my talk. I want to say it a few times and get the pacing right."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay."
+      },
+      {
+        "speaker": "user",
+        "text": "Good afternoon, everyone. Today I'd like to show you why proactive agents—"
+      },
+      {
+        "speaker": "user",
+        "text": "No, again."
+      },
+      {
+        "speaker": "user",
+        "text": "Good afternoon, everyone. Today I'd like to show you why proactive agents—"
+      },
+      {
+        "speaker": "user",
+        "text": "Hmm. One more time."
+      },
+      {
+        "speaker": "user",
+        "text": "Good afternoon, everyone. Today I'd like to show you why proactive agents matter in long interactions."
+      },
+      {
+        "speaker": "user",
+        "text": "Okay. That one felt right."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-33",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "The agreement metric was... uh... the one that corrects for chance agreement..."
+      },
+      {
+        "speaker": "user",
+        "text": "Cohen's kappa. Right. That's the one."
+      },
+      {
+        "speaker": "user",
+        "text": "So we can report Cohen's kappa alongside raw agreement."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-34",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "I have a meeting with Prof. Wang at 3pm. Anyway, let's keep working on the experiment design."
+      },
+      {
+        "speaker": "agent",
+        "text": "Sure."
+      },
+      {
+        "speaker": "user",
+        "text": "Prof. Wang just canceled the 3pm meeting. We moved it to next week."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay."
+      },
+      {
+        "speaker": "user",
+        "text": "Good, then we don't have to stop at three. Let's finish this section."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-35",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Hey — don't mind me. I've been here plenty of times. I just need to find a quiet seat."
+      },
+      {
+        "speaker": "user",
+        "text": "This spot is fine."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-36",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "My neck feels tight and my eyes are tired from the screen, so I'm taking my five-minute break now."
+      },
+      {
+        "speaker": "user",
+        "text": "Neck first, then I'll close my eyes for twenty seconds."
+      },
+      {
+        "speaker": "user",
+        "text": "That's already helping."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-37",
+    "transcript": [
+      {
+        "speaker": "agent",
+        "text": "The fast system decides whether something deserves attention. The slow system then decides what to do about it."
+      },
+      {
+        "speaker": "user",
+        "text": "Mm... okay."
+      },
+      {
+        "speaker": "agent",
+        "text": "So the slow system only runs after the context has been selected."
+      },
+      {
+        "speaker": "user",
+        "text": "Right... I think."
+      },
+      {
+        "speaker": "agent",
+        "text": "I think I made that more complicated than it needs to be. Let me put it in one sentence: the fast system decides whether to react; the slow system decides how to react."
+      },
+      {
+        "speaker": "user",
+        "text": "Ah. Okay — that makes sense."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-38",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "Between option A and option B, I think A is simpler, but it loses the long-term context."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right. And you were leaning toward B because it keeps the history."
+      },
+      {
+        "speaker": "user",
+        "text": "Exactly — but I still worry about the extra latency."
+      },
+      {
+        "speaker": "user",
+        "text": "Sorry, I need to take this."
+      },
+      {
+        "speaker": "user",
+        "text": "Okay, I'm back."
+      },
+      {
+        "speaker": "agent",
+        "text": "We were comparing A and B. You preferred B for the long-term context, but your open concern was the extra latency."
+      },
+      {
+        "speaker": "user",
+        "text": "Right — yes. Let's continue from that."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-39",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "I need to explain why the result is weaker without sounding defensive. Maybe I'll say: “The result is lower because the evaluation is unusually strict.”"
+      },
+      {
+        "speaker": "user",
+        "text": "No... that still sounds defensive."
+      },
+      {
+        "speaker": "user",
+        "text": "What about: “The result is lower because the evaluation is unusually strict.”"
+      },
+      {
+        "speaker": "user",
+        "text": "No. Same problem."
+      },
+      {
+        "speaker": "user",
+        "text": "Okay, maybe: “The result is lower because the evaluation is unusually strict...”"
+      },
+      {
+        "speaker": "agent",
+        "text": "You've gone back to the same framing three times, and each time you rejected it for the same reason. Instead of changing a few words, maybe change the structure: state the result first, then explain what the stricter evaluation tells us."
+      },
+      {
+        "speaker": "user",
+        "text": "Yeah — that's a better direction."
+      }
+    ]
+  },
+  {
+    "session_id": "SES-40",
+    "transcript": [
+      {
+        "speaker": "user",
+        "text": "For model selection, let's only use the validation set. I want to keep the test set untouched until the final evaluation."
+      },
+      {
+        "speaker": "agent",
+        "text": "Understood — validation for selection, test only for the final report."
+      },
+      {
+        "speaker": "user",
+        "text": "For the threshold, let's just choose whichever value gives us the best test-set result."
+      },
+      {
+        "speaker": "agent",
+        "text": "One check before we move on: earlier you said the test set should stay untouched until final evaluation. Choosing the threshold by test performance would break that rule. Do you want to change the protocol, or should we choose the threshold on validation instead?"
+      },
+      {
+        "speaker": "user",
+        "text": "Good catch. Keep the original rule — use validation for the threshold."
+      }
+    ]
+  }
+]

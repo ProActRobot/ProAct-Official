@@ -1,0 +1,17 @@
+data_dir: ${oc.env:MOTION_RAW_DATA_ROOT,./data/social_robot_idle}
+need_mirror_data: true
+train_window_secs: 5
+test_window_secs: 5
+window_overlap: 0.8
+fps: 30
+fullbody: true
+testset:
+  - joint_angles_pxb_fixed_scene01_body_pose
+processed_dir: ${oc.env:MOTION_AUDIO_PROCESSED_DIR,./data/processed_social_robot_idle/audio_motion_rescale_new_rep3_processed_with_mirror_double_${train_window_secs}s_${fps}fps_${window_overlap}stride_merged_double}
+position_smoothing: 0
+rotation_smoothing: 0
+constant_remover_eps: 1.0e-6
+is_standardize: true
+map_to_exponential: true
+extract_MFCC: true
+audio_sample_rate: 16000

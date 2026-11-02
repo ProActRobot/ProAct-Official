@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use ProAct, please cite the accompanying paper."
+type: software
+title: ProAct
+repository-code: "https://github.com/ProActRobot/ProAct-Official"
+url: "https://proactrobot.github.io/"
+license: MIT
+authors:
+  - family-names: Zhang
+    given-names: Zeyi
+  - family-names: Kang
+    given-names: Zixi
+  - family-names: Zhao
+    given-names: Ruijie
+  - family-names: Feng
+    given-names: Yusen
+  - family-names: Jiang
+    given-names: Biao
+  - family-names: Ji
+    given-names: Hanyu
+  - family-names: Liu
+    given-names: Libin
+preferred-citation:
+  type: article
+  title: "ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Real-Time Embodied Social Interaction"
+  authors:
+    - family-names: Zhang
+      given-names: Zeyi
+    - family-names: Kang
+      given-names: Zixi
+    - family-names: Zhao
+      given-names: Ruijie
+    - family-names: Feng
+      given-names: Yusen
+    - family-names: Jiang
+      given-names: Biao
+    - family-names: Ji
+      given-names: Hanyu
+    - family-names: Liu
+      given-names: Libin
+  year: 2026
+  journal: ACM Transactions on Graphics
+  doi: 10.1145/3842576
+  url: "https://arxiv.org/abs/2602.14048"

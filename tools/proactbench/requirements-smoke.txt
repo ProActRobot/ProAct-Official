@@ -1,0 +1,2 @@
+# The main ProAct checkout supplies its own server dependencies.
+websockets>=13,<17

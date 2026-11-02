@@ -1,0 +1,102 @@
+task_mode: controlnet_interaction_7_cfg_mfcc
+
+inference:
+  save_dir: ${oc.env:MOTION_OUTPUT_DIR,./runtime/motion}
+  test_dir: ${oc.env:MOTION_TEST_DIR,./data/test_audios_slices}
+  test_audios: [['780_001', '780_002']]
+  audio_sample_rate: 16000
+  window_secs: ${data.seqlen}
+  window_overlap: 0.5
+  fps: ${data.framerate}
+  data_path: ${data.data_root}
+  is_waveform: true
+  inference_sovler: flow_matching
+  sample_steps: 50
+  guidance_weight: 3
+  eta: 1.0
+  dataset: seg
+
+trainer:
+  batch_size: 64
+  epochs: 1000
+  seed: 1137
+  learning_rate: 1.0e-4
+  valid_interval: 5
+  save_interval: 100
+  start_save_point: 100
+  use_scheduler: true
+  mode: inference
+  save_dir: ${oc.env:MOTION_EXPERIMENT_DIR,./experiments/${trainer.tag}}
+  tag: flow_matching_controlnet_hardmatch_audiov1_31dim_audio181
+  checkpoint_path: ${oc.env:MOTION_CHECKPOINT,./experiments/flow_matching_controlnet_hardmatch_audiov1_31dim_audio181/weights/model_800.pt}
+  method: flow_matching
+  new_audio_encoder: false
+  matmul_precision: high
+
+scheduler:
+  warm_up_steps: [1000]
+  cycle_lengths: [40000000]
+  f_start: [8.0e-05]
+  f_max: [1.0]
+  f_min: [1.0]
+
+logger:
+  wandb_pj_name: SocialRobot_Controlnet
+  exp_name: ${trainer.tag}
+
+data:
+  data_root: ${oc.env:MOTION_CONTROLNET_DATA_ROOT,./data/processed_seg_dataset_hardmatch/feat_30fps_5s_TEXT_WithStd}
+  framerate: 30
+  seqlen: 5
+  test_style: []
+  batch_size: ${trainer.batch_size}
+  pin_memory: true
+  num_workers: 22
+  drop_last: false
+  motion_feature_dim: ${model.motion_dim}
+  cond_feature_dim: ${model.mfcc_dim}
+
+controlnet:
+  base_dit_checkpoint: ${oc.env:MOTION_BASE_CHECKPOINT,./experiments/flow_matching_new_audiov1_31dim_audio181/weights/model_500.pt}
+  clip_dim: 512
+  text_latent_dim: 512
+  text_encoder_layers: 2
+  text_length: 77
+  max_time_len: 150
+
+model:
+  latent_dim: 512
+  motion_dim: 31
+  time_emb_dim: 1280
+  window_size_max_len: 150
+  block_depth: 6
+  style_encode: true
+  mfcc_dim: 181
+  cond_dropout_rate: 0.1
+  encoder_kernel_size: 3
+  mask_sel: causalMask
+  condition_strategy: adaptive_layer_norm
+  num_att_heads: 8
+  attention_dropout_p: 0.1
+  conv_dropout_p: 0.1
+  conv_kernel_size: 3
+  mlp_ratio: 4.0
+  causal_mask_diagonal: 1
+  use_DropKey: false
+
+ddpm:
+  schedule_type: linear
+  predict_type: eps
+  n_timestep: 1000
+  linear_start: 1.0e-4
+  linear_end: 8.0e-2
+  cosine_s: 8.0e-3
+  loss_type: l2
+  l_simple_weight: 1.0
+  original_elbo_weight: 0.0
+  cfg_cond_drop_prob: [0.2, 0.2, 0.2]
+  clip_denoised: false
+  save_intermediates_every_t: 10
+
+audio:
+  audio_data_root: ${oc.env:MOTION_AUDIO_DATA_ROOT,./src/assets/preprocessing/audio}

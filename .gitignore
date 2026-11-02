@@ -1,0 +1,53 @@
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded models, datasets, and generated interaction records
+checkpoints/
+data/
+experiments/
+outputs/
+local_media/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.wav
+*.mp3
+*.mp4
+*.bvh
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.zip
+*.tar*
+# Runtime caches and serialized preprocessing assets
+runtime/
+log_data/
+*.sav
+!src/assets/preprocessing/audio/input_scaler.sav
+!src/assets/preprocessing/audio/output_scaler.sav
+!src/assets/preprocessing/audio/data_pipe_30fps.sav
+src/server/warmup_cache_sr/
+streaming_inference/
+!tools/proactbench/data/
+!tools/proactbench/data/*.json
+!tools/retargeting/hierarchy_g1.bvh
+.local_assets/
+.release-work/
+*.bundle

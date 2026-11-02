@@ -1,0 +1,293 @@
+HIERARCHY
+ROOT pelvis
+{
+    OFFSET 0.0000 0.0000 79.3000
+    CHANNELS 6 Xposition Yposition Zposition Zrotation Yrotation Xrotation
+    JOINT left_hip_pitch
+    {
+        OFFSET 0.0000 6.4452 -10.2700
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        JOINT left_hip_roll_parent
+        {
+            OFFSET 0.0 0.0 0.0
+            CHANNELS 3 Zrotation Yrotation Xrotation
+            JOINT left_hip_roll
+            {
+                OFFSET 0.0000 5.2000 -3.0465
+                CHANNELS 3 Zrotation Yrotation Xrotation
+                JOINT left_hip_yaw
+                {
+                    OFFSET 2.5001 0.0000 -12.4120
+                    CHANNELS 3 Zrotation Yrotation Xrotation
+                    JOINT left_knee_parent
+                    {
+                        OFFSET 0.0 0.0 0.0
+                        CHANNELS 3 Zrotation Yrotation Xrotation
+                        JOINT left_knee
+                        {
+                            OFFSET -7.8273 0.2149 -17.7340
+                            CHANNELS 3 Zrotation Yrotation Xrotation
+                            JOINT left_ankle_pitch
+                            {
+                                OFFSET 0.0000 -0.0094 -30.0010
+                                CHANNELS 3 Zrotation Yrotation Xrotation
+                                JOINT left_ankle_roll
+                                {
+                                    OFFSET 0.0000 0.0000 -1.7558
+                                    CHANNELS 3 Zrotation Yrotation Xrotation
+                                    End Site
+                                    {
+                                        OFFSET 12.0000 3.0000 -3.0000
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    JOINT right_hip_pitch
+    {
+        OFFSET 0.0000 -6.4452 -10.2700
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        JOINT right_hip_roll_parent
+        {
+            OFFSET 0.0 0.0 0.0
+            CHANNELS 3 Zrotation Yrotation Xrotation
+            JOINT right_hip_roll
+            {
+                OFFSET 0.0000 -5.2000 -3.0465
+                CHANNELS 3 Zrotation Yrotation Xrotation
+                JOINT right_hip_yaw
+                {
+                    OFFSET 2.5001 0.0000 -12.4120
+                    CHANNELS 3 Zrotation Yrotation Xrotation
+                    JOINT right_knee_parent
+                    {
+                        OFFSET 0.0 0.0 0.0
+                        CHANNELS 3 Zrotation Yrotation Xrotation
+                        JOINT right_knee
+                        {
+                            OFFSET -7.8273 -0.2149 -17.7340
+                            CHANNELS 3 Zrotation Yrotation Xrotation
+                            JOINT right_ankle_pitch
+                            {
+                                OFFSET 0.0000 -0.0094 -30.0010
+                                CHANNELS 3 Zrotation Yrotation Xrotation
+                                JOINT right_ankle_roll
+                                {
+                                    OFFSET 0.0000 0.0000 -1.7558
+                                    CHANNELS 3 Zrotation Yrotation Xrotation
+                                    End Site
+                                    {
+                                        OFFSET 12.0000 -3.0000 -3.0000
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    JOINT waist_yaw
+    {
+        OFFSET 0.3964 0.0000 1.8769
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        JOINT waist_roll
+        {
+            OFFSET -0.3963 0.0000 3.5000
+            CHANNELS 3 Zrotation Yrotation Xrotation
+            JOINT waist_pitch
+            {
+                OFFSET 0.0000 0.0000 1.9000
+                CHANNELS 3 Zrotation Yrotation Xrotation
+JOINT left_shoulder_pitch_parent
+{
+    OFFSET 0.0 0.0 0.0
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT left_shoulder_pitch
+    {
+        OFFSET 0.3956 10.0220 23.7780
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        JOINT left_shoulder_roll_parent
+        {
+            OFFSET 0.0 0.0 0.0
+            CHANNELS 3 Zrotation Yrotation Xrotation
+            JOINT left_shoulder_roll
+            {
+                OFFSET 0.0000 3.8000 -1.3831
+                CHANNELS 3 Zrotation Yrotation Xrotation
+                JOINT left_shoulder_yaw
+                {
+                    OFFSET 0.0000 0.6240 -10.3200
+                    CHANNELS 3 Zrotation Yrotation Xrotation
+                    JOINT left_elbow
+                    {
+                        OFFSET 1.5783 0.0000 -8.0518
+                        CHANNELS 3 Zrotation Yrotation Xrotation
+                        JOINT left_wrist_roll
+                        {
+                            OFFSET 10.0000 0.1888 -1.0000
+                            CHANNELS 3 Zrotation Yrotation Xrotation
+                            JOINT left_wrist_pitch
+                            {
+                                OFFSET 3.8000 0.0000 0.0000
+                                CHANNELS 3 Zrotation Yrotation Xrotation
+                                JOINT left_wrist_yaw
+                                {
+                                    OFFSET 4.6000 0.0000 0.0000
+                                    CHANNELS 3 Zrotation Yrotation Xrotation
+JOINT left_hand_thumb_0
+{
+    OFFSET 6.7000 0.3000 0.0000
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT left_hand_thumb_1
+    {
+        OFFSET -0.2500 -1.9300 0.0000
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        JOINT left_hand_thumb_2
+        {
+            OFFSET 0.0000 -4.5800 0.0000
+            CHANNELS 3 Zrotation Yrotation Xrotation
+            End Site
+            {
+                OFFSET 0.0000 -4.0000 0.0000
+            }
+        }
+    }
+}
+JOINT left_hand_middle_0
+{
+    OFFSET 11.9200 0.4600 -2.8500
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT left_hand_middle_1
+    {
+        OFFSET 4.5800 0.0000 0.0000
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        End Site
+        {
+            OFFSET 4.0000 0.0000 0.0000
+        }
+    }
+}
+JOINT left_hand_index_0
+{
+    OFFSET 11.9200 0.4600 2.8500
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT left_hand_index_1
+    {
+        OFFSET 4.5800 0.0000 0.0000
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        End Site
+        {
+            OFFSET 4.0000 0.0000 0.0000
+        }
+    }
+}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+JOINT right_shoulder_pitch_parent
+{
+    OFFSET 0.0 0.0 0.0
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT right_shoulder_pitch
+    {
+        OFFSET 0.3956 -10.0220 23.7780
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        JOINT right_shoulder_roll_parent
+        {
+            OFFSET 0.0 0.0 0.0
+            CHANNELS 3 Zrotation Yrotation Xrotation
+            JOINT right_shoulder_roll
+            {
+                OFFSET 0.0000 -3.8000 -1.3831
+                CHANNELS 3 Zrotation Yrotation Xrotation
+                JOINT right_shoulder_yaw
+                {
+                    OFFSET 0.0000 -0.6240 -10.3200
+                    CHANNELS 3 Zrotation Yrotation Xrotation
+                    JOINT right_elbow
+                    {
+                        OFFSET 1.5783 0.0000 -8.0518
+                        CHANNELS 3 Zrotation Yrotation Xrotation
+                        JOINT right_wrist_roll
+                        {
+                            OFFSET 10.0000 -0.1888 -1.0000
+                            CHANNELS 3 Zrotation Yrotation Xrotation
+                            JOINT right_wrist_pitch
+                            {
+                                OFFSET 3.8000 0.0000 0.0000
+                                CHANNELS 3 Zrotation Yrotation Xrotation
+                                JOINT right_wrist_yaw
+                                {
+                                    OFFSET 4.6000 0.0000 0.0000
+                                    CHANNELS 3 Zrotation Yrotation Xrotation
+JOINT right_hand_thumb_0
+{
+    OFFSET 6.7000 -0.3000 0.0000
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT right_hand_thumb_1
+    {
+        OFFSET -0.2500 1.9300 0.0000
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        JOINT right_hand_thumb_2
+        {
+            OFFSET 0.0000 4.5800 0.0000
+            CHANNELS 3 Zrotation Yrotation Xrotation
+            End Site
+            {
+                OFFSET 0.0000 4.0000 0.0000
+            }
+        }
+    }
+}
+JOINT right_hand_middle_0
+{
+    OFFSET 11.9200 -0.4600 -2.8500
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT right_hand_middle_1
+    {
+        OFFSET 4.5800 0.0000 0.0000
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        End Site
+        {
+            OFFSET 4.0000 0.0000 0.0000
+        }
+    }
+}
+JOINT right_hand_index_0
+{
+    OFFSET 11.9200 -0.4600 2.8500
+    CHANNELS 3 Zrotation Yrotation Xrotation
+    JOINT right_hand_index_1
+    {
+        OFFSET 4.5800 0.0000 0.0000
+        CHANNELS 3 Zrotation Yrotation Xrotation
+        End Site
+        {
+            OFFSET 4.0000 0.0000 0.0000
+        }
+    }
+}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+            }
+        }
+    }
+}
